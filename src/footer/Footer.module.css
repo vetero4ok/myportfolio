@@ -1,0 +1,12 @@
+.footer {
+    height: 160px;
+    background: #363636;
+
+
+}
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
