@@ -1,0 +1,19 @@
+.inputBlock {
+    width: 100%;
+    text-align: center;
+}
+
+.input {
+    width: 90%;
+    height: 30px;
+    margin: 10px;
+    outline: none;
+    border: 2px solid rgba(179, 179, 179, 0.42);
+}
+
+textarea {
+    margin: 10px;
+    width: 90%;
+    outline: none;
+    border: 2px solid rgba(179, 179, 179, 0.42);
+}
