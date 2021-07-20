@@ -9,9 +9,19 @@ export function MyProjects() {
                 <h2>My projects</h2>
                 <div className={s.works}>
                     <Work title = {'First works'}
+                          nameButton = {'Look'}
                           img = {'#'}
                           description = {'Lorem ipsum dolor sit amet, consectetur adipisici aliqua Ut enim.'} />
                     <Work title = {'Second works'}
+                          nameButton = {'Look'}
+                          img = {'#'}
+                          description = {'Lorem ipsu, consectetur adipisici aliqua Ut enim.'} />
+                    <Work title = {'Second works'}
+                          nameButton = {'Look'}
+                          img = {'#'}
+                          description = {'Lorem ipsu, consectetur adipisici aliqua Ut enim.'} />
+                    <Work title = {'Second works'}
+                          nameButton = {'Look'}
                           img = {'#'}
                           description = {'Lorem ipsu, consectetur adipisici aliqua Ut enim.'} />
 

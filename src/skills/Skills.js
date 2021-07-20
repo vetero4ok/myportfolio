@@ -17,6 +17,12 @@ export function Skills() {
                     <Skill title={'React'}
                            description={' consectetur adipisicing elit, s'}
                     />
+                    <Skill title={'Redux'}
+                           description={' consectetur adicxvxc fd pisicing elit, s'}
+                    />
+                    <Skill title={'HTML'}
+                           description={' conse  ctetur as  dipisicing elit, s'}
+                    />
                 </div>
             </div>
         </div>
