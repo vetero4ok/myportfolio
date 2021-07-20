@@ -9,19 +9,15 @@ export function Contacts() {
         <div className={s.contactsBlock}>
             <div className={`${styleContainer.container} ${s.contactsContainer}`}>
                 <h2>Contacts</h2>
-                <div className={s.submitForm}>
+                <form className={s.submitForm}>
                     <InputComponents type={'name'} name={'User name'} placeholder={'User name'}/>
                     <InputComponents type={'email'} name={'email'} placeholder={'E-mail'}/>
 
                     <textarea name={"description"} rows={"7"} placeholder={'Your message'}></textarea>
-
-                    <div>
-                        <Button
-                            nameButton={'Send'}
-                        />
-                    </div>
-
-                </div>
+                    <Button
+                        nameButton={'Send'}
+                    />
+                </form>
             </div>
         </div>
     );
