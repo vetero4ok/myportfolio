@@ -1,6 +1,7 @@
 import s from './Contacts.module.css';
 import styleContainer from "../common/styles/Container.module.css";
 import {InputComponents} from "./InputComponents/InputComponents";
+import {Button} from "../common/Button/Button";
 
 
 export function Contacts() {
@@ -15,7 +16,9 @@ export function Contacts() {
                     <textarea name={"description"} rows={"7"} placeholder={'Your message'}></textarea>
 
                     <div>
-                        <button>send message</button>
+                        <Button
+                            nameButton={'Send'}
+                        />
                     </div>
 
                 </div>
