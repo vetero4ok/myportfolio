@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/myportfolio/static/css/main.325baa4d.chunk.css",
+    "main.js": "/myportfolio/static/js/main.617729c7.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.617729c7.chunk.js.map",
+    "runtime-main.js": "/myportfolio/static/js/runtime-main.ba6d4226.js",
+    "runtime-main.js.map": "/myportfolio/static/js/runtime-main.ba6d4226.js.map",
+    "static/js/2.cd6a9ef9.chunk.js": "/myportfolio/static/js/2.cd6a9ef9.chunk.js",
+    "static/js/2.cd6a9ef9.chunk.js.map": "/myportfolio/static/js/2.cd6a9ef9.chunk.js.map",
+    "static/js/3.4ac39c01.chunk.js": "/myportfolio/static/js/3.4ac39c01.chunk.js",
+    "static/js/3.4ac39c01.chunk.js.map": "/myportfolio/static/js/3.4ac39c01.chunk.js.map",
+    "index.html": "/myportfolio/index.html",
+    "static/css/main.325baa4d.chunk.css.map": "/myportfolio/static/css/main.325baa4d.chunk.css.map",
+    "static/js/2.cd6a9ef9.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.cd6a9ef9.chunk.js.LICENSE.txt",
+    "static/media/Facebook_logo.42be7c9a.png": "/myportfolio/static/media/Facebook_logo.42be7c9a.png",
+    "static/media/Linkedin_logo.29406aa5.png": "/myportfolio/static/media/Linkedin_logo.29406aa5.png",
+    "static/media/Twitter_logo.12950348.png": "/myportfolio/static/media/Twitter_logo.12950348.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba6d4226.js",
+    "static/js/2.cd6a9ef9.chunk.js",
+    "static/css/main.325baa4d.chunk.css",
+    "static/js/main.617729c7.chunk.js"
+  ]
+}
