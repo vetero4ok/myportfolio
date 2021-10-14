@@ -13,6 +13,13 @@
     background-color: #baffba;
 }
 
+.skillTitle{
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
 .description {
 
 }

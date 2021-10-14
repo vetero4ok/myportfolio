@@ -10,7 +10,7 @@ export function Work(props) {
                     <Button nameButton={props.nameButton}/>
                 </a>
             </div>
-            <h4 className={s.workTitle}>{props.title}</h4>
+            <h3 className={s.workTitle}>{props.title}</h3>
             <div>
                 <p>{props.description}</p>
             </div>
