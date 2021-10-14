@@ -7,9 +7,10 @@ export function Main() {
             <div className={styleContainer.container}>
                 <div className={s.text}>
                     <span>Hi there!</span>
-                    <h1>Igor Svyrydovskyi</h1>
-                    <p>Frontend Developer</p>
-
+                    <div className={s.titleName}>
+                        <h4> I am Igor Svyrydovskyi</h4>
+                    </div>
+                    <h2>Front-end Developer</h2>
                 </div>
                 <div className={s.photo}></div>
             </div>

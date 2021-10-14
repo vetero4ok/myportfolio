@@ -3,11 +3,48 @@
     background-color: #ffebf6;
 }
 
-
-
 .text {
+    color: #fff;
     width: 300px;
+    font-family: Berkshire Swash, cursive;
     background-color: #d2d2d2;
+}
+
+.titleName {
+    /*position: relative;*/
+}
+
+/*.titleName::after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    right: -60px;*/
+/*    top: 9px;*/
+/*    width: 65px;*/
+/*    height: 1px;*/
+/*    background: #030303;*/
+/*    -webkit-transition: all .3s;*/
+/*    transition: all .3s;*/
+/*}*/
+
+.titleName h4 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 8px;
+    color: #fff;
+}
+
+.text h2 {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.2em;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    background: url(/src/common/font-logos/fire.jpg) no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .photo {

@@ -1,12 +1,13 @@
 import s from './Skills.module.css';
 import styleContainer from '../common/styles/Container.module.css'
 import {Skill} from "./skil/Skill";
+import {TitleH2Component} from "../common/Components/TitleH2Component/TitleH2Component";
 
 export function Skills() {
     return (
         <div className={s.skillsBlock}>
             <div className={`${styleContainer.container} ${s.skillsContainer} `}>
-                <h2 className={s.title}>Skills</h2>
+                <TitleH2Component title = {'Skills'}/>
                 <div className={s.skills}>
                     <Skill title={'JS'}
                            description={'Lorem ipsum dolor sit amet, sed do eiusmod tempor'}

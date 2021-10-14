@@ -10,7 +10,7 @@ export function InputComponents(props) {
                 name={props.name}
                 placeholder = {props.placeholder}
                 className={s.input}
-                autoFocus
+               // autoFocus
             />
 
         </div>
