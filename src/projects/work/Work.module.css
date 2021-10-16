@@ -1,31 +1,30 @@
 .work {
-    width: 200px;
-    background-color: #d2d2d2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-
+    width: 220px;
+    margin-bottom: 30px;
 }
 
 .image {
-    width: 200px;
-    height: 160px;
-    background-color: #b26bfc;
+    width: 100%;
+    height: 180px;
     /*background-image: url("https://pbs.twimg.com/profile_images/1173161429266030592/lJCNA_JC.jpg");*/
-    /*background-size: cover;*/
-    /*background-position: center;*/
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.workTitle{
+.descriptionMenu {
+
+}
+
+.workTitle {
     font-size: 18px;
     color: #fff;
     display: block;
     margin-bottom: 20px;
     font-weight: 300;
 }
+
 /*.workDescription{*/
 /*    font-size: 18px;*/
 /*    color: #fff;*/

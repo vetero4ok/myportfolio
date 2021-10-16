@@ -2,29 +2,32 @@ import s from './MyProjects.module.css';
 import styleContainer from '../common/styles/Container.module.css'
 import {Work} from "./work/Work";
 import {TitleH2Component} from "../common/Components/TitleH2Component/TitleH2Component";
-
+import todo from '../common/img/works/todolist.jpg'
+import counter from '../common/img/works/counter.jpg'
+import social from '../common/img/works/social.jpg'
+import cards from '../common/img/works/cards.jpg'
 export function MyProjects() {
     return (
         <div className={s.worksBlock}>
             <div className={`${styleContainer.container} ${s.workContainer}`}>
                 <TitleH2Component title = {'My projects'}/>
                 <div className={s.works}>
-                    <Work title = {'First works'}
+                    <Work title = {'Todo List'}
                           nameButton = {'Look'}
-                          img = {'#'}
-                          description = {'Lorem ipsum dolor sit amet, consectetur adipisici aliqua Ut enim.'} />
-                    <Work title = {'Second works'}
+                          img = {todo}
+                          description = {'Lorem ipsum dolor sit amet, '} />
+                    <Work title = {'Social Network'}
                           nameButton = {'Look'}
-                          img = {'#'}
-                          description = {'Lorem ipsu, consectetur adipisici aliqua Ut enim.'} />
-                    <Work title = {'Second works'}
+                          img = {social}
+                          description = {'Lorem ipsu, consectetur am.'} />
+                    <Work title = {'Cards training game'}
                           nameButton = {'Look'}
-                          img = {'#'}
-                          description = {'Lorem ipsu, consectetur adipisici aliqua Ut enim.'} />
-                    <Work title = {'Second works'}
+                          img = {cards}
+                          description = {'Lorem ipsu, consectetur adipim.'} />
+                    <Work title = {'Counter'}
                           nameButton = {'Look'}
-                          img = {'#'}
-                          description = {'Lorem ipsu, consectetur adipisici aliqua Ut enim.'} />
+                          img = {counter}
+                          description = {'Lorem ipsu, consectetur adipisici.'} />
 
                 </div>
             </div>
