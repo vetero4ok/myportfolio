@@ -6,6 +6,7 @@ import {TitleH2Component} from "../common/Components/TitleH2Component/TitleH2Com
 
 
 export function Contacts() {
+
     return (
         <div className={s.contactsBlock}>
             <div className={`${styleContainer.container} ${s.contactsContainer}`}>
@@ -13,8 +14,7 @@ export function Contacts() {
                 <form className={s.submitForm}>
                     <InputComponents type={'name'} name={'User name'} placeholder={'User name'}/>
                     <InputComponents type={'email'} name={'email'} placeholder={'E-mail'}/>
-
-                    <textarea name={"description"} rows={"7"} placeholder={'Your message'}></textarea>
+                    <InputComponents type={'textarea'} name={'description'}  placeholder={'Your message'}/>
                     <Button
                         nameButton={'Send'}
                     />
