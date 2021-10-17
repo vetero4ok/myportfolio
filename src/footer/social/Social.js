@@ -1,7 +1,7 @@
 import s from './Social.module.css';
-import twitter from '../../common/logos/Twitter_logo.png'
-import facebook from '../../common/logos/Facebook_logo.png'
-import linkedin from '../../common/logos/Linkedin_logo.png'
+import twitter from '../../common/img/logos/Twitter_logo.png'
+import facebook from '../../common/img/logos/Facebook_logo.png'
+import linkedin from '../../common/img/logos/Linkedin_logo.png'
 
 export function Social() {
     return (

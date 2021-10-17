@@ -3,18 +3,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .button {
-    background-color: #e7e7e7;
+    background-color: #d5d5d5;
     color: black;
-    border-radius: 12px;
     border: 2px solid #808080;
     padding: 10px 28px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .button:hover {
@@ -28,3 +30,18 @@
 a {
     text-decoration: none;
 }
+/*button{*/
+/*    font-size: 16px;*/
+/*    color: #fff;*/
+/*    cursor: pointer;*/
+/*    height: 50px;*/
+/*    line-height: 50px;*/
+/*    border: 1px solid hsla(0,0%,40%,.8);*/
+/*    padding: 0 30px;*/
+/*    text-transform: uppercase;*/
+/*    letter-spacing: 1px;*/
+/*    display: inline-block;*/
+/*    border-radius: 50px;*/
+/*    -webkit-transition: all .3s;*/
+/*    transition: all .3s;*/
+/*}*/

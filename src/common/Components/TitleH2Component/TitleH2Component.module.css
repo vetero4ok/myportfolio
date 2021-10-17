@@ -10,7 +10,7 @@
     text-transform: capitalize;
     color: #fff;
     margin: 50px 0;
-    background: url(/src/common/font-logos/fire.jpg) no-repeat;
+    background: url(/src/common/img/font-logos/fire.jpg) no-repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

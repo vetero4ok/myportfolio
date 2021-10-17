@@ -1,6 +1,10 @@
 .mainBlock {
     height: 100vh;
-    background-color: #ffebf6;
+    background: #343a40;
+}
+
+.mainContainer {
+
 }
 
 .text {
@@ -10,9 +14,9 @@
     background-color: #d2d2d2;
 }
 
-.titleName {
-    /*position: relative;*/
-}
+/*.titleName {*/
+/*    position: relative;*/
+/*}*/
 
 /*.titleName::after {*/
 /*    content: "";*/
@@ -42,13 +46,14 @@
     color: #fff;
     margin-bottom: 30px;
     margin-top: 20px;
-    background: url(/src/common/font-logos/fire.jpg) no-repeat;
+    background: url(/src/common/img/font-logos/fire.jpg) no-repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.photo {
-    width: 300px;
-    height: 400px;
+.photo img {
+    width: 400px;
+    height: 430px;
     background-color: #d2d2d2;
+
 }
