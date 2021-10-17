@@ -1,14 +1,12 @@
-import s from './Skill.module.css';
+import s from './Skill.module.scss';
 
 
 export function Skill(props) {
     return (
         <div className={s.skill}>
             <img src={props.img} alt={props.title} className={s.icon}/>
-            <div>
-                <h3 className={s.skillTitle}>{props.title}</h3>
-                <p className={s.description}>{props.description}</p>
-            </div>
+            <h3 className={s.skillTitle}>{props.title}</h3>
+            <p>{props.description}</p>
         </div>
     );
 

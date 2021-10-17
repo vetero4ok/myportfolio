@@ -1,4 +1,4 @@
-import s from './Skills.module.css';
+import s from './Skills.module.scss';
 import styleContainer from '../common/styles/Container.module.css'
 import {Skill} from "./skill/Skill";
 import {TitleH2Component} from "../common/Components/TitleH2Component/TitleH2Component";
