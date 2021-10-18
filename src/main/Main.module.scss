@@ -1,24 +1,49 @@
 $bg-img: url('../common/img/font-logos/fire.jpg');
+$bg-my: url('../common/img/my.jpg');
 .mainBlock {
   min-height: 100vh;
   background: #343a40;
 
   .mainContainer {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin: 50px 0;
+    margin: 100px 0;
+    @media screen and (max-width: 940px) {
+      & {
+        justify-content: center;
+        margin: 20px 0;
+      }
+    }
 
-    .photo img {
-      width: 400px;
-      height: 420px;
+    .photo {
+      width: 300px;
+      height: 400px;
+      background-image: $bg-my;
+      background-size: cover;
+      background-position: center;
+      border: 10px solid rgba(135, 134, 134, 0.5);
+      background-clip: padding-box;
+      opacity: 0.8;
     }
 
     .text {
-      width: 50%;
+      width: 60%;
       color: #fff;
-      text-transform: capitalize;
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      text-align: end;
+      margin-top: 20px;
+      @media screen and (max-width: 940px) {
+        & {
+          align-items: center;
+          text-align: end;
+        }
+      }
+
 
       & h3 {
         font-size: 1.2rem;
@@ -37,10 +62,21 @@ $bg-img: url('../common/img/font-logos/fire.jpg');
       }
 
       .info {
+        width: 100%;
+        padding: 10px;
         background-color: #444444;
+        border: 10px solid rgba(135, 134, 134, 0.5);
+        text-align: justify;
+        opacity: 0.8;
       }
     }
   }
+
+  //@media screen and (max-width: 1050px) {
+  //  & {
+  //    min-height: 100vh;
+  //  }
+  //}
 }
 
 

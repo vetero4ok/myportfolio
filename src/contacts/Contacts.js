@@ -1,4 +1,4 @@
-import s from './Contacts.module.css';
+import s from './Contacts.module.scss';
 import styleContainer from "../common/styles/Container.module.css";
 import {InputComponents} from "./InputComponents/InputComponents";
 import {Button} from "../common/Button/Button";
@@ -9,7 +9,7 @@ export function Contacts() {
 
     return (
         <div className={s.contactsBlock}>
-            <div className={`${styleContainer.container} ${s.contactsContainer}`}>
+            <div className={`${s.contactsContainer} ${styleContainer.container} `}>
                 <TitleH2Component title = {'Contacts'}/>
                 <form className={s.submitForm}>
                     <InputComponents type={'name'} name={'User name'} placeholder={'User name'}/>
