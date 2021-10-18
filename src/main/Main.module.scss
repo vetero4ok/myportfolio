@@ -1,0 +1,51 @@
+$bg-img: url('../common/img/font-logos/fire.jpg');
+.mainBlock {
+  min-height: 100vh;
+  background: #343a40;
+
+  .mainContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+
+    .photo img {
+      width: 400px;
+      height: 420px;
+    }
+
+    .text {
+      width: 50%;
+      color: #fff;
+      text-transform: capitalize;
+
+      & h3 {
+        font-size: 1.2rem;
+        font-weight: 400;
+        letter-spacing: 8px;
+      }
+
+      & h2 {
+        font-size: 58px;
+        font-weight: 700;
+        line-height: 1.2em;
+        margin: 20px 0 30px 0;
+        background: $bg-img no-repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .info {
+        background-color: #444444;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
