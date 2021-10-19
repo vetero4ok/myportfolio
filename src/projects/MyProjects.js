@@ -1,4 +1,4 @@
-import s from './MyProjects.module.css';
+import s from './MyProjects.module.scss';
 import styleContainer from '../common/styles/Container.module.css'
 import {Work} from "./work/Work";
 import {TitleH2Component} from "../common/Components/TitleH2Component/TitleH2Component";
@@ -8,7 +8,7 @@ import social from '../common/img/works/social.jpg'
 import cards from '../common/img/works/cards.jpg'
 export function MyProjects() {
     return (
-        <div className={s.worksBlock}>
+        <div className={s.worksBlock} id={'id_projects'}>
             <div className={`${styleContainer.container} ${s.workContainer}`}>
                 <TitleH2Component title = {'My projects'}/>
                 <div className={s.works}>

@@ -1,0 +1,23 @@
+@import "src/common/styles/scss/variable";
+.worksBlock {
+    min-height: 100vh;
+    background: $bg-color-primary;
+    .workContainer {
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        .works {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-content: space-around;
+            margin-top: 30px;
+        }
+    }
+}
+
+
+
+
+

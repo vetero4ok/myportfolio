@@ -11,17 +11,18 @@ import jest from '../common/img/skills-logo/jest.png'
 import storybook from '../common/img/skills-logo/storybook_logo.png'
 import restApi from '../common/img/skills-logo/rest.png'
 import node from '../common/img/skills-logo/node.png'
+import TS from '../common/img/skills-logo/ts.png'
 
 
 export function Skills() {
     return (
-        <div className={s.skillsBlock}>
+        <div className={s.skillsBlock} id={'id_skills'}>
             <div className={`${styleContainer.container} ${s.skillsContainer} `}>
                 <TitleH2Component title={'Skills'}/>
                 <div className={s.skills}>
                     <Skill
                         img={html5}
-                        title={'JS'}
+                        title={'HTML'}
                         description={'Lorem ipsum dolor sit amet, sed do eiusmod tempor'}
                     />
                     <Skill
@@ -35,13 +36,18 @@ export function Skills() {
                         description={'Lorem ipsum dolor, sed do eiusmod tempor'}
                     />
                     <Skill
+                        img={TS}
+                        title={'TypeScript'}
+                        description={'Lorem ipsum dolor, sed do eiusmod tempor'}
+                    />
+                    <Skill
                            img={react}
                            title={'React'}
                            description={' consectetur adipisicing elit, s'}
                     />
                     <Skill
                            img={redux}
-                           title={'Redux'}
+                           title={'Redux/ReduxToolkit'}
                            description={' consectetur adicxvxc fd pisicing elit'}
                     />
                     <Skill
@@ -51,7 +57,7 @@ export function Skills() {
                     />
                     <Skill
                            img={jest}
-                           title={'Jest Testing'}
+                           title={'Unit/Jest/Testing'}
                            description={' conse  ctetur as  dipisicing elit'}
                     />
                     <Skill
@@ -61,9 +67,10 @@ export function Skills() {
                     />
                     <Skill
                         img={restApi}
-                        title={'Rest Api'}
+                        title={'Rest Api/Axios'}
                         description={' conse  ctetur as  dipisicing elit'}
                     />
+
                 </div>
             </div>
         </div>

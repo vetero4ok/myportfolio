@@ -1,8 +1,9 @@
 $bg-img: url('../common/img/font-logos/fire.jpg');
 $bg-my: url('../common/img/my.jpg');
+@import "src/common/styles/scss/variable";
 .mainBlock {
   min-height: 100vh;
-  background: #343a40;
+  background: $bg-color-primary;
 
   .mainContainer {
     width: 100%;
@@ -10,7 +11,7 @@ $bg-my: url('../common/img/my.jpg');
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin: 100px 0;
+    margin: 50px 0 100px 0;
     @media screen and (max-width: 940px) {
       & {
         justify-content: center;

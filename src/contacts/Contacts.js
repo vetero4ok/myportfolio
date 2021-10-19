@@ -8,7 +8,7 @@ import {TitleH2Component} from "../common/Components/TitleH2Component/TitleH2Com
 export function Contacts() {
 
     return (
-        <div className={s.contactsBlock}>
+        <div className={s.contactsBlock} id={'id_contact'}>
             <div className={`${s.contactsContainer} ${styleContainer.container} `}>
                 <TitleH2Component title = {'Contacts'}/>
                 <form className={s.submitForm}>

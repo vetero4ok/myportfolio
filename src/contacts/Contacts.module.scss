@@ -1,5 +1,6 @@
+@import "src/common/styles/scss/variable";
 .contactsBlock {
-  background-color: #2a2a2a;
+  background-color: $bg-color-secondary;
   min-height: 100vh;
 
   .contactsContainer {
