@@ -1,14 +1,16 @@
 import s from './Social.module.css';
-import twitter from '../../common/img/logos/Twitter_logo.png'
-import facebook from '../../common/img/logos/Facebook_logo.png'
-import linkedin from '../../common/img/logos/Linkedin_logo.png'
+import telegram from '../../common/img/logos/telegram.png'
+import linkedIn from '../../common/img/logos/link.png'
+import codeWars from '../../common/img/logos/cw.png'
+import GH from '../../common/img/logos/github.png'
 
 export function Social() {
     return (
         <div className={s.social}>
-            <a href="#"><img src={twitter} alt="twitter"/></a>
-            <a href="#"><img src={facebook} alt="facebook"/></a>
-            <a href="#"><img src={linkedin} alt="linkedin"/></a>
+            <a href={'https://t.me/IgorekSvyr'}><img src={telegram}/></a>
+            <a href={'https://www.linkedin.com/in/igor-svyrydovskyi-7322b61a7/'}><img src={linkedIn}/></a>
+            <a href={'https://www.codewars.com/users/vetero4ok'}><img src={codeWars}/></a>
+            <a href={'https://github.com/vetero4ok'}><img src={GH}/></a>
         </div>);
 
 }

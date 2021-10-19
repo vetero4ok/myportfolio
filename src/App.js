@@ -5,17 +5,20 @@ import {Skills} from "./skills/Skills";
 import {MyProjects} from "./projects/MyProjects";
 import {Contacts} from "./contacts/Contacts";
 import {Footer} from "./footer/Footer";
+import {HashRouter} from "react-router-dom";
 
 function App() {
     return (
-        <div className={s.App}>
-            <Header />
-            <Main />
-            <Skills />
-            <MyProjects />
-            <Contacts />
-            <Footer />
-        </div>
+        <HashRouter>
+            <div className={s.App}>
+                <Header/>
+                <Main/>
+                <Skills/>
+                <MyProjects/>
+                <Contacts/>
+                <Footer/>
+            </div>
+        </HashRouter>
     );
 }
 
