@@ -1,9 +1,10 @@
+@import "src/common/styles/scss/variable";
 .skill {
   width: 200px;
   text-align: center;
   margin-bottom: 30px;
   padding: 40px 20px 30px;
-  background: #222;
+  background-color: $btn-color-primary;
 
   .icon {
     width: 70px;

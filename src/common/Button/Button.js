@@ -1,4 +1,4 @@
-import s from './Button.module.css'
+import s from './Button.module.scss'
 
 export function Button(props) {
    const onClickHandler = () => {}

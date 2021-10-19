@@ -3,7 +3,7 @@ import styleContainer from '../common/styles/Container.module.css'
 
 export function Main() {
     return (
-        <div className={s.mainBlock} id = {'id_main'}>
+        <div className={s.mainBlock} >
             <div className={`  ${styleContainer.container} `}>
                 <div className={`${s.mainContainer}`}>
                     <div className={s.photo}> </div>

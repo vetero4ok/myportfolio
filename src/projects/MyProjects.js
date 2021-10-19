@@ -13,21 +13,25 @@ export function MyProjects() {
                 <TitleH2Component title = {'My projects'}/>
                 <div className={s.works}>
                     <Work title = {'Todo List'}
-                          nameButton = {'Look'}
+                          path={'https://vetero4ok.github.io/Todolist/#/'}
+                          nameButton = {'See more'}
                           img = {todo}
-                          description = {'Lorem ipsum dolor sit amet, '} />
+                          description = {''} />
                     <Work title = {'Social Network'}
-                          nameButton = {'Look'}
+                          path={'https://vetero4ok.github.io/mynetwork/'}
+                          nameButton = {'See more'}
                           img = {social}
-                          description = {'Lorem ipsu, consectetur am.'} />
+                          description = {''} />
                     <Work title = {'Cards training game'}
-                          nameButton = {'Look'}
+                          path={'https://nick-gansta.github.io/Cards-front-1-0/#/login'}
+                          nameButton = {'See more'}
                           img = {cards}
-                          description = {'Lorem ipsu, consectetur adipim.'} />
+                          description = {''} />
                     <Work title = {'Counter'}
-                          nameButton = {'Look'}
+                          path={'https://vetero4ok.github.io/coutnter/'}
+                          nameButton = {'See more'}
                           img = {counter}
-                          description = {'Lorem ipsu, consectetur adipisici.'} />
+                          description = {''} />
 
                 </div>
             </div>

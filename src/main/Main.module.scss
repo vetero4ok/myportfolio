@@ -25,7 +25,7 @@ $bg-my: url('../common/img/my.jpg');
       background-image: $bg-my;
       background-size: cover;
       background-position: center;
-      border: 10px solid rgba(135, 134, 134, 0.5);
+      border: 10px solid $border-color;
       background-clip: padding-box;
       opacity: 0.8;
     }
@@ -40,11 +40,11 @@ $bg-my: url('../common/img/my.jpg');
       margin-top: 20px;
       @media screen and (max-width: 940px) {
         & {
+          width: 100%;
           align-items: center;
-          text-align: end;
+          text-align: center;
         }
       }
-
 
       & h3 {
         font-size: 1.2rem;
@@ -65,8 +65,7 @@ $bg-my: url('../common/img/my.jpg');
       .info {
         width: 100%;
         padding: 10px;
-        background-color: #444444;
-        border: 10px solid rgba(135, 134, 134, 0.5);
+        background-color: $border-color;
         text-align: justify;
         opacity: 0.8;
       }

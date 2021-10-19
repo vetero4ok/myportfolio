@@ -1,0 +1,30 @@
+@import "src/common/styles/scss/variable";
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  .button {
+    background-color: $btn-color-primary;
+    font-size: 14px;
+    color: $btn-color-secondary;
+    cursor: pointer;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid hsla(0, 0%, 40%, .8);
+    padding: 0 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    border-radius: 50px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+
+    &:hover {
+      color: $btn-color-primary;
+      background-color: $btn-color-secondary;
+      opacity: 0.8;
+    }
+  }
+}
